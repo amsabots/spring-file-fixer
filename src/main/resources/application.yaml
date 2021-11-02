@@ -1,0 +1,14 @@
+spring:
+  main:
+    banner-mode: off
+    log-startup-info: false
+
+
+#logging behaviours
+logging:
+  config: classpath:logback-spring.xml
+server:
+  port: 4700
+
+
+
